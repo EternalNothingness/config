@@ -11,13 +11,6 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
-# set default editor
-export VISUAL=vim
-export EDITOR="$VISUAL"
-
-# settings for 'less'
-export LESS="R" # enable colored output
-
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
