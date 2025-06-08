@@ -14,6 +14,7 @@ export PATH
 # customize bash prompt
 # see here: https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/
 # use \w for full directory or \W for base directory
+# export PS1="\e[1;32m\u@\h \W:\$\e[m " # with user and hostname
 export PS1="\e[1;32m\W:\$\e[m "
 
 # set default editor
