@@ -11,6 +11,18 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
+# customize bash prompt
+# see here: https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/
+# use \w for full directory or \W for base directory
+export PS1="\e[1;32m\W:\$\e[m "
+
+# set default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
+# settings for 'less'
+export LESS="R" # enable colored output
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
