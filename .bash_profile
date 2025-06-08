@@ -7,5 +7,6 @@ fi
 
 # User specific environment and startup programs
 # customize bash prompt
-export PS1="\e[1;32m\w:\$\e[m "
+# use \w for full directory or \W for base directory
+export PS1="\e[1;32m\W:\$\e[m "
 
